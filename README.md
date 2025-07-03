@@ -1,51 +1,48 @@
 # 🧠 Python Objects and Data Structures Assessment
 
-This project is a basic Python exercise focusing on variables, data types, and key data structures like lists, tuples, dictionaries, and sets. It was part of a technical assessment to demonstrate foundational Python knowledge.
-
----
+This project is a Python exercise that covers essential data structures and object handling. It was part of a basic assessment designed to test understanding of variables, lists, tuples, sets, and dictionaries.
 
 ## 📌 Description
 
-The notebook contains code that demonstrates how to:
-- Create and manipulate variables with string values
-- Define, update, and reverse lists
-- Add and remove elements from lists
-- Work with tuples and sets
-- Create and access dictionaries
-
----
+The notebook walks through:
+- Creating string variables
+- Defining and modifying lists
+- Working with tuples and sets
+- Creating and accessing dictionary key-value pairs
 
 ## 🛠 Tools Used
 
 - Python 3
 - Jupyter Notebook
 
----
-
 ## 📂 Key Concepts Covered
 
-- **Strings** – declaration, concatenation
-- **Lists** – indexing, appending, removing, reversing
-- **Tuples** – understanding immutability
-- **Sets** – handling unique values
-- **Dictionaries** – storing and accessing key-value pairs
+- Strings
+- Lists
+- Tuples
+- Sets
+- Dictionaries
 
----
+## ▶️ How to Run
+
+Clone this repository and open the notebook:
+
+git clone https://github.com/okofu-jessica/objects-and-data-structures-python  
+cd objects-and-data-structures-python  
+jupyter notebook
+
+## 🖼 Sample Code
+
+my_list = [1, 2, 3]  
+my_list.append(4)  
+my_list.reverse()  
+print(my_list)  # Output: [4, 3, 2, 1]
 
 ## 💡 What I Learned
 
-- The difference between mutable and immutable types
-- Efficient use of basic data structures
-- How to manipulate collections in Python
-
----
-
-## 📁 Files Included
-
-- `assessment.ipynb` – The Jupyter Notebook with all code and output
-- `README.md` – This project summary
-
----
+- Differences between data structures
+- Mutability vs immutability
+- How to modify and access collections in Python
 
 ## ✅ Status
 
